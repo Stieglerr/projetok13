@@ -1,0 +1,32 @@
+html {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pesquisa{
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form label {
+    width: 120px;
+    text-align: center;
+}
+
+.form input {
+    flex: 1;
+    max-width: 300px;
+}
+
+.botao {
+    text-align: center;
+}
